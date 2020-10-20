@@ -1,0 +1,43 @@
+.section-carousel .carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.section-carousel .carousel .carousel-images-wrap {
+    width: 3500px ;
+}
+
+.section-carousel .carousel .carousel-item-wrap {
+    float: left;
+}
+
+.section-carousel .carousel .carousel-item-wrap img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.section-carousel .carousel .carousel-arrow {
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+
+    position: absolute;
+    top: 30%;
+
+    cursor: pointer;
+}
+
+.carousel-arrow.arrow-prev {
+    background-image: url("../img/arrow-prev.svg");
+    left: 10%;
+}
+
+.carousel-arrow.arrow-next {
+    background-image: url("../img/arrow-next.svg");
+    right: 10%;
+}

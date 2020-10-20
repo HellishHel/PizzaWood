@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Pizza Wood</title>
+</head>
+<body>
+    <section class="section-main">
+        <div class="container">
+            <div class="logo"></div>
+            <div class="phone-number">
+                <p class="ph-number">8 800 000 00 00</p>
+                <p class="ph-label">Бесплатная консультация</p>
+            </div>
+            <h1>Франшиза PIZZAWOOD — это больше чем пицца</h1>
+            <h2>Начните зарабатывать 439 000 ₽ рублей в месяц с каждой точки</h2>
+            <div class="row">
+                <div class="col-md-3 col-sm-12">
+                    <div class="button">
+                        <p>Получить расчёт и план</p>
+                    </div>
+                </div>
+                <div class="col-md-9 col-xs-10">
+                    <div class="block bl-right">
+                        <p>Франчайзинговых точек: 6</p>
+                    </div>
+                    <div class="block">
+                        <p>Собственных точек: 18</p>
+                    </div>
+                    <div class="block bl-left">
+                        <p>Срок открытия: 2 месяца</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- /.section-main -->
+
+    <section class="section-1">
+        <div class="container">
+            <h1>Сделайте бизнес на пицце 
+                — одном из самых популярных 
+                стритфуд направлений в России
+            </h1>
+            <h3>Интерес жителей России к пицце. Средние данные Яндекс за месяц ↓</h3>
+            <table>
+                <tr>
+                    <td class="querry">
+                        <p>Пиццерия</p>
+                        <img class="img-border" src="img/border1.png" alt="">
+                        <img class="img-search-icon" src="img/search1.png" alt="">
+                    </td>
+                    <td><p>360 тысяч запросов</p></td>
+                </tr>
+                <tr>
+                    <td class="querry"><p>Пицца доставка</p></td>
+                    <td><p>620 тысяч запросов</p></td>
+                </tr>
+                <tr>
+                    <td class="querry"><p>Заказать пиццу</p></td>
+                    <td><p>360 тысяч запросов</p></td>
+                </tr>
+                <tr>
+                    <td class="querry"><p>Купить кофе</p></td>
+                    <td><p>150 тысяч запросов</p></td>
+                </tr>
+                <tr>
+                    <td class="querry"><p>Выпить кофе</p></td>
+                    <td><p>100 тысяч запросов</p></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <div class="button">
+                            <p>Получить анализ</p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section> <!-- /.section-1 -->
+
+    <section class="section-calc">
+        <div class="container">
+            <h1>Получите расчёт прибыли для вашего города</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Выручка:</h3>
+                    <div class="option-line">
+                        <div class="title">
+                            <p>Среднее количество чеков в месяц</p>
+                        </div>
+                        <div class="input-wrap">
+                            <input id="avarage-purchase" class="input-numerable" type="number" value="4000" disabled>
+                            <span class="input-span"></span>
+                        </div>
+                    </div>
+                    <div class="option-line">
+                        <div class="title">
+                            <p>Средняя ежемесячная выручка</p>
+                        </div>
+                        <div class="input-wrap input-money-wrap">
+                            <input id="avarage-earnings" class="input-money" type="number" value="1400600" disabled>
+                            <span class="input-span"></span>
+                        </div>
+                    </div>
+                    <h3 class="h-costs">Расходы:</h3>
+                    <div class="option-line">
+                        <div class="title">
+                            <p>Средняя стоимость аренды</p>
+                        </div>
+                        <div class="input-wrap input-money-wrap">
+                            <input id="avarage-rent" class="input-money" type="number" value="400000" disabled>
+                            <span class="input-span"></span>
+                        </div>
+                    </div>
+                    <div class="option-line">
+                        <div class="title">
+                            <p>Средняя зарплата сотрудников</p>
+                        </div>
+                        <div class="input-wrap input-money-wrap">
+                            <input id="avarage-salary" class="input-money" type="number" value="45000" disabled>
+                            <span class="input-span"></span>
+                        </div>
+                    </div>
+                    <div class="option-line">
+                        <div class="title">
+                            <p>Закупка сырья</p>
+                        </div>
+                        <div class="input-wrap input-money-wrap">
+                            <input id="materials" class="input-money" type="number" value="1400600" disabled>
+                            <span class="input-span"></span>
+                        </div>
+                    </div>
+                    <div class="option-line">
+                        <div class="title">
+                            <p>Прочие расходы</p>
+                        </div>
+                        <div class="input-wrap input-money-wrap">
+                            <input id="other-costs" class="input-money" type="number" value="1400600" disabled>
+                            <span class="input-span"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="options-cafe">
+                        <h3>Формат:</h3>
+                        <div class="option-radio-wrap">
+                            <div class="option-radio">
+                                <label class="option-radio-label" for="familycafe">
+                                    <input type="radio" name="cafetype" id="familycafe" checked>
+                                    <p><span></span>Семейное кафе</p>
+                                </label>
+                            </div>
+                            <div class="option-radio">
+                                <label class="option-radio-label" for="foodcourt">
+                                    <input type="radio" name="cafetype" id="foodcourt">
+                                    <p><span></span>Фудкорт</p>
+                                </label>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="option-line">
+                        <div class="title">
+                            <p>Средний чек</p>
+                        </div>
+                        <div class="input-wrap input-money-wrap">
+                            <input class="input-money input-price" id="input-price" type="number" value="600">
+                            <span class="input-span"></span>
+                        </div>
+                        <input class="input-pange" id="input-price-range" type="range" min="100" max="2000" value="600">
+                    </div>
+                    <div class="option-line">
+                        <div class="title">
+                            <p>Сколько месяцев вы работаете по франшизе</p>
+                        </div>
+                        <div class="input-wrap input-period-wrap">
+                            <input class="input-period" id="input-period" type="number" value="12">
+                            <span class="input-span"></span>
+                        </div>
+                        <input class="input-pange" id="input-period-range" type="range" min="1" max="36" value="12">
+                    </div>
+                    <div class="calc-result-block">
+                        <div class="calc-result-block-wrap">
+                            <h5>За это время в вашем кафе купят:</h5>
+                            <table>
+                                <tr>
+                                    <td><p>Пиццы — <span class="goods-sold" id="pizza-sold"></span></p></td>
+                                    <td><p>Салатов — <span class="goods-sold" id="salads-sold"></span></p></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Кофе — <span class="goods-sold" id="coffee-sold"></span></p></td>
+                                    <td><p>Десертов — <span class="goods-sold" id="desserts-sold"></span></p></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Вторых блюд — <span class="goods-sold" id="main-course-sold"></span></p></td>
+                                </tr>
+                            </table>
+                            <p class="net-profit">Ваша чистая прибыль составит: <span>535 604</span> ₽</p>
+                        </div>
+                    </div>
+                    <img class="vector-line" src="img/Vector6.png" alt="">
+                </div>
+            </div>
+            <div class="get-business-plan">
+                <h4 class="net-profit">Получите бизнес-план для выхода на прибыль <span>535 604</span> ₽</h4>
+                <div class="inputs-line">
+                    <input type="text" name="clientName" class="client-name" placeholder="Ваше имя">
+                    <input type="number" name="clientPhoneNum" class="client-phone-num" placeholder="Ваш телефон">
+                    <input type="text" name="clientEmail" class="client-email" placeholder="Ваш e-mail">
+                    <div class="button">
+                        <p>Получить бизнес-план</p>
+                    </div>
+                </div>
+            </div><!-- /.get-business-plan -->
+        </div>
+    </section><!-- /.section-calc -->
+
+    <section class="section-history">
+        <div class="container">
+            <h1>Получите модель пиццерии,
+                которая показала стремительный 
+                рост и полюбилась тысячам гостей!
+            </h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>История бренда PIZZAWOOD началась с рекорда. Мы открыли первую пиццерию в 2018 году и в первый же день сделали выручку в 280 000 рублей! При этом в пиццерии работали всего 5 человек, а площадь помещения была всего 30 м²</p>
+                    <p>Этот стало отправной точкой — мы поняли, что наш продукт конкурентоспособен. Что намного важней — мы увидели, что наша пицца пользуется дикой популярностью.</p>
+                    <p>Открываясь в новом городе, пиццерии PIZZAWOOD становятся точками притяжения. Готовьтесь, к вам будут заходить много гостей: местные жители, туристы, гурманы, студенты</p>    
+                    <p>За что любят PIZZAWOOD? Клиенты говорят, что за сервис, за постоянные новинки в меню, за крутую доставку, которую не могут повторить даже крупнейшие сети. Это всё правда, но на самом деле в основе успеха — отлаженные бизнес-процессы. Благодаря им в пиццериях отличное обслуживание, новинки из-за рубежа и быстрая доставка.</p>   
+                    <p>Мы предлагаем вам использовать бизнес-процессы PIZZAWOOD, чтобы открыть собственную пиццерию. Создайте новую кулинарную точку притяжении на карте своего города. Зарабатывайте вместе с нами, развивайтесь вместе с нами, достигайте новых вершин вместе с нами. Будем рады стать партнёрами!</p>
+                </div>
+                <div class="img-wrap col-md-6">
+                    <img src="img/founder.png" alt="">
+                    <p class="founder-name">Артём Буторин</p>
+                    <p class="founder-desc">Основатель
+                        и ген. директор
+                        PIZZAWOOD
+                    </p>
+                </div>
+            </div>
+
+            <h1>Станьте частью сети PIZZAWOOD:
+                мы уже есть в 9 городах!
+            </h1>
+            <table>
+                <tr>
+                    <td>
+                        <div class="num-p-wrap">
+                            <p class="num-p">24</p>
+                        </div>
+                        <div class="text-p-wrap">
+                            <p>пиццерии уже открыто</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="num-p-wrap">
+                            <p class="num-p">6</p>
+                        </div>
+                        <div class="text-p-wrap">
+                            <p>работают по франшизе</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="num-p-wrap">
+                            <p class="num-p">1 400 000 ₽</p>
+                        </div>
+                        <div class="text-p-wrap">
+                            <p>cредняя ежемесячная выручка одной пиццерии</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="num-p-wrap">
+                            <p class="num-p">от 350 ₽</p>
+                        </div>
+                        <div class="text-p-wrap">
+                            <p>cредний чек на 1 заказ</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="num-p-wrap">
+                            <p class="num-p">4 000</p>
+                        </div>
+                        <div class="text-p-wrap">
+                            <p>cреднее количество клиентов для одной пиццерии за месяц</p>
+                        </div>
+                    </td>
+                    <td class="button-td">
+                        <div class="button">
+                            <p>Стать частью команды</p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section><!-- /.section-history -->
+
+    <section class="section-carousel">
+        <div class="container">
+            <h1>
+                Поможем открыть успешную пиццерию
+                в любом регионе России
+            </h1>
+        </div>
+        <div class="carousel">
+            <div class="carousel-arrow arrow-prev"></div>
+            <div class="carousel-images-wrap">
+                <div class="carousel-item-wrap">
+                    <img src="img/carousel-img.png" alt="">
+                </div>
+                <div class="carousel-item-wrap carousel-center">
+                    <img src="img/carousel-img.png" alt="">
+                </div>
+                <div class="carousel-item-wrap">
+                    <img src="img/carousel-img.png" alt="">
+                </div>
+                <div class="carousel-item-wrap">
+                    <img src="img/carousel-img.png" alt="">
+                </div>
+                <div class="carousel-item-wrap">
+                    <img src="img/carousel-img.png" alt="">
+                </div>
+                <div class="carousel-item-wrap">
+                    <img src="img/carousel-img.png" alt="">
+                </div>
+            </div>
+            <div class="carousel-arrow arrow-next"></div>
+        </div>
+    </section><!-- /.section-carousel -->
+
+    <section class="section-indicators">
+        <div class="container">
+            <h1>
+                Франчайзи PIZZAWOOD <br>
+                выходят на плановые показатели 
+                быстрее, чем за 6 месяцев
+            </h1>
+            <img class="vegetables-img" src="img/vegetables.png" alt="">
+            <div class="row">
+                <div class="col-md-5">
+                    <table>
+                        <tr>
+                            <td class="td-first">
+                                <img src="img/stroke.svg" alt="">
+                                <p>Москва</p>
+                            </td>
+                            <td class="td-second">
+                                <img src="img/stroke.svg" alt="">
+                                <p>Сочи</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td-first">
+                                <img src="img/stroke.svg" alt="">
+                                <p>Апрелевка</p>
+                            </td>
+                            <td class="td-second">
+                                <img src="img/stroke.svg" alt="">
+                                <p>Обнинск</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td-first">
+                                <img src="img/stroke.svg" alt="">
+                                <p>Апрелевка</p>
+                            </td>
+                            <td class="td-second">
+                                <img src="img/stroke.svg" alt="">
+                                <p>Обнинск</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <div class="button">
+                                    <p>Стать частью команды</p>
+                                </div>
+                            </td>
+                        </tr>
+                    </table> <!-- table-cities-->
+                </div>
+            </div>
+        
+    
+            <h1>
+                Получите план выхода <br>
+                на прибыль 439 000 ₽/месяц <br>
+                для вашего города
+            </h1>
+            <img class="pizza-img" src="img/pizza.png" alt="">
+            <div class="col-md-5 col-md-offset-7">
+                <div class="get-business-plan-block">
+                    <h3>
+                        Оставьте заявку <br>
+                        и получите Бизнес-план
+                    </h3>
+                    <input type="text" name="clientName" class="client-name" placeholder="Ваше имя">
+                    <input type="number" name="clientPhoneNum" class="client-phone-num" placeholder="Ваш телефон">
+                    <input type="text" name="clientEmail" class="client-email" placeholder="Ваш e-mail">
+                    <div class="button">
+                        <p>Получить бизнес-план</p>
+                    </div>
+                    <p class="conf-p">
+                        Нажимая на кнопку «Получить», я даю согласие <br>
+                        на обработку персональных данных и соглашаюсь <br>
+                        с <span>политикой конфиденциальности</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section><!-- /.section-indicators -->
+
+    <section class="section-format">
+        <div class="container">
+            <h1>
+                Подберём для вас <br>
+                подходящий формат заведения
+            </h1>
+            <div class="row">
+                <div class="format-block family-cafe">
+                    <div class="img-desc">
+                        <div class="image">
+                            <h3>Семейное кафе</h3>
+                            <img class="cafe-img" src="img/cafe.png" alt="">
+                            <img class="gradient-img" src="img/Rectangle-52.png" alt="">
+                        </div>
+                        <div class="description">
+                            <p>Пиццерия в отдельно стоящем помещении или на первом этаже жилого дома.</p>
+                            <p>Получайте больше гостей благодаря удачному расположению и нашему яркому фирменному стилю.</p>
+                        </div>
+                    </div>
+                        
+                        <div class="key-indicators">
+                            <h4>Ключевые показатели:</h4>
+                            <table>
+                                <tr>
+                                    <td class="first-column">
+                                        <p>Площадь помещения:</p>
+                                    </td>
+                                    <td class="second-column">
+                                        <p>от 40 кв. м.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="first-column">
+                                        <p>Паушальный взнос:</p>
+                                    </td>
+                                    <td class="second-column">
+                                        <p>от 290 000 ₽</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="first-column">
+                                        <p>Средняя выручка:</p>
+                                    </td>
+                                    <td class="second-column">
+                                        <p>1 640 000 ₽</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="first-column">
+                                        <p>Прибыль:</p>
+                                    </td>
+                                    <td class="second-column">
+                                        <p>535 500 ₽</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="first-column">
+                                        <p>Инвестиции:</p>
+                                    </td>
+                                    <td class="second-column">
+                                        <p>6,6 млн ₽</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="first-column">
+                                        <p>Окупаемость:</p>
+                                    </td>
+                                    <td class="second-column">
+                                        <p>15 месяцев</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <div class="button">
+                                            <p>Получить бизнес-план</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                </div> <!-- /.format-block.family-cafe -->
+            </div>
+            <div class="row">
+                <div class="format-block food-court">
+                    <div class="img-desc">
+                        <div class="image">
+                            <h3>Фудкорт</h3>
+                            <img class="cafe-img" src="img/cafe.png" alt="">
+                            <img class="gradient-img" src="img/Rectangle-52.png" alt="">
+                        </div>
+                        <div class="description">
+                            <p>Островок в ТЦ. Сэкономьте на открытии: нужен только прилавок и технологическая зона.</p>
+                            <p>Работаете с уже теплыми гостями, которые пришли на фуд-корт подкрепиться. </p>
+                        </div>
+                    </div>
+                        
+                        <div class="key-indicators">
+                            <h4>Ключевые показатели:</h4>
+                            <table>
+                                <tr>
+                                    <td class="first-column">
+                                        <p>Площадь помещения:</p>
+                                    </td>
+                                    <td class="second-column">
+                                        <p>от 80 кв. м.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="first-column">
+                                        <p>Паушальный взнос:</p>
+                                    </td>
+                                    <td class="second-column">
+                                        <p>от 230 000 ₽</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="first-column">
+                                        <p>Средняя выручка:</p>
+                                    </td>
+                                    <td class="second-column">
+                                        <p>1 350 000 ₽</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="first-column">
+                                        <p>Прибыль:</p>
+                                    </td>
+                                    <td class="second-column">
+                                        <p>439 000 ₽</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="first-column">
+                                        <p>Инвестиции:</p>
+                                    </td>
+                                    <td class="second-column">
+                                        <p>4,6 млн ₽</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="first-column">
+                                        <p>Окупаемость:</p>
+                                    </td>
+                                    <td class="second-column">
+                                        <p>13 месяцев</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <div class="button">
+                                            <p>Получить бизнес-план</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                </div> <!-- /.format-block.food-court -->
+            </div>
+        </div>
+    </section><!-- /.section-format -->
+
+    <section class="section-opening">
+        <div class="container">
+            <h1>Поможем открыться за 2 месяца</h1>
+            <div class="row">
+                <div class="col-md-7">
+                    <table>
+                        <tr>
+                            <td class="td-graph">
+                                <img src="img/Group-45-1.svg" alt="">
+                                <img src="img/vector-line.svg" alt="">
+                            </td>
+                            <td class="td-desc">
+                                <p>Подготовка документации и согласование проекта</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td-graph">
+                                <img src="img/Group-45-2.svg" alt="">
+                                <img src="img/vector-line.svg" alt="">
+                            </td>
+                            <td class="td-desc">
+                                <p>Поиск помещения, монтаж
+                                    оборудования, подбор персонала</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td-graph">
+                                <img src="img/Group-45-3.svg" alt="">
+                                <img src="img/vector-line.svg" alt="">
+                            </td>
+                            <td class="td-desc">
+                                <p>Обучение сотрудников <br> и руководителя</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td-graph">
+                                <img src="img/Group-45-4.svg" alt="">
+                            </td>
+                            <td class="td-desc">
+                                <p>Прохождение аттестации, <br>
+                                    проверок во всех инстанциях <br>
+                                    и старт работы</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="button">
+                        <p>Получить план открытия</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- /.section-opening -->
+
+    <section class="section-support">
+        <div class="container">
+            <h1>Полная поддержка каждому партнёру</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="step-block">
+                        <img src="img/step-1.png" alt="">
+                        <h2>01</h2>
+                        <h3>Контролируем открытие</h3>
+                        <p>Наша команда приезжает к вам в город для запуска бизнеса: 
+                            помогаем наладить все процессы, проводим торжественное открытие, 
+                            контролируем работу на старте.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="step-block">
+                        <img src="img/step-1.png" alt="">
+                        <h2>02</h2>
+                        <h3>Формируем команду</h3>
+                        <p>
+                            Помогаем найти руководителя, поваров и кассиров. 
+                            Проводим собеседования и утверждаем кандидатов
+                            на ключевые позиции в вашей франчайзи.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="step-block">
+                        <img src="img/step-1.png" alt="">
+                        <h2>03</h2>
+                        <h3>Организуем поставки</h3>
+                        <p>
+                            Обеспечиваем вашу пиццерию всем необходимым. 
+                            Напрямую поставляем сырьё для приготовления, 
+                            брендированную и сопутствующую продукцию.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="step-block">
+                        <img src="img/step-1.png" alt="">
+                        <h2>04</h2>
+                        <h3>Передаём необходимые знания</h3>
+                        <p>
+                            Приглашаем вас и ваш персонал на стажировку 
+                            в действующую пиццерию на 9 дней. 
+                            Ещё 9 дней обучаем на вашей точке перед запуском. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="step-block">
+                        <img src="img/step-1.png" alt="">
+                        <h2>05</h2>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="step-block step-block-last">
+                        <h3>Помогаем получать максимум посетителей</h3>
+                        <p>
+                            Подбираем правильную локацию и формат для заведения. 
+                            Полностью настраиваем рекламу на нашем официальном сайте. 
+                            Подключаем геолокационные сервисы. 
+                            Обучаем работе в соцсетях, помогаем наполнять их качественным контентом.
+                        </p>
+                        <div class="button">
+                            <p>Получить комплект документации 1/3</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- /.section-support -->
+
+    <section class="section-mobile-app">
+        <div class="container">
+            <h1>
+                Доступ к мобильному <br>
+                приложению PIZZAWOOD
+            </h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Без усилий получайте от 30% к выручке</h3>
+                    <p>Больше трети гостей предпочитают заказывать пиццу и другие блюда онлайн.</p>
+                    <p>Имея привлекательное приложение, вы получаете эту часть клиентов себе.</p>
+
+                    <h3>Опережайте конкурентов за счёт лучшего сервиса</h3>
+                    <p>
+                        В мобильном приложении гости могут знакомиться с ингредиентами, способами приготовления, составлять списки любимых блюд, в несколько кликов совершать повторные заказы и др.
+                    </p>
+                    <p>
+                        Такой функционал выгодно выделит вас среди большинства пиццерий в городе.
+                    </p>
+                    <h3>Превращайте покупателей в постоянных клиентов</h3>
+                    <p>
+                        Пользователи приложения первыми узнают о скидках, акциях, получают и тратят бонусы за заказы, 
+                        мы дарим им промокоды и др.
+                    </p>
+                    <p>Благодаря системе лояльности PIZZAWOOD, ваши гости будут возвращаться снова и снова.</p>
+                </div>
+            </div>
+            <img src="img/mob-app-hand.png" alt="">
+            <img src="img/mob-app-veg.png" alt="">
+            <div class="download-img-line">
+                <img class="download-img" src="img/dl-app-store.png" alt="">
+                <img class="download-img" src="img/dl-google-play.png" alt="">
+            </div>
+        </div>
+    </section><!-- /.section-mobile-app -->
+
+    <section class="section-plan-2">
+        <div class="container">
+            <div class="row">
+                <p class="rotated-line rl-1">Получите план выхода</p>
+                <p class="rotated-line rl-2">на прибыль 500 000  ₽/месяц</p>
+                <p class="rotated-line rl-3">для вашего города</p>
+
+                <div class="col-md-5 col-md-offset-7">
+                    <div class="get-business-plan-block">
+                        <h3>
+                            Оставьте заявку <br>
+                            и получите Бизнес-план
+                        </h3>
+                        <input type="text" name="clientName" class="client-name" placeholder="Ваше имя">
+                        <input type="number" name="clientPhoneNum" class="client-phone-num" placeholder="Ваш телефон">
+                        <input type="text" name="clientEmail" class="client-email" placeholder="Ваш e-mail">
+                        <div class="button">
+                            <p>Получить бизнес-план</p>
+                        </div>
+                        <p class="conf-p">
+                            Нажимая на кнопку «Получить», я даю согласие <br>
+                            на обработку персональных данных и соглашаюсь <br>
+                            с <span>политикой конфиденциальности</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- /.section-plan-2 -->
+
+    <section class="section-footer">
+        <div class="container">
+            <div class="copy-block f-bl">
+                <p class="p-copyright">© «Pizzawood», 2020</p>
+                <a href="" class="a-conf">Политика конфиденциальности</a>
+                <div class="clearfix"></div>
+                <a href="">Франчайзинг 5 - упаковка и продвижение франшиз</a>
+            </div>
+            <div class="apps-block f-bl">
+                <div>
+                    <img class="download-img" src="img/dl-app-store.png" alt="">
+                </div>
+                <div>
+                    <img class="download-img" src="img/dl-google-play.png" alt="">
+                </div>
+                <div>
+                    <p>
+                        Cкачать приложение <br>
+                        PizzaWood
+                    </p>
+                </div>
+            </div>
+            <div class="phone-num-block f-bl">
+                <p class="phone-num">8 800 000 00 00</p>
+                <p>Бесплатная консультация</p>
+            </div>
+        </div>
+    </section><!-- /.section-footer -->
+    
+    <script src="js/script.min.js"></script>
+    <script src="js/carousel.min.js"></script>
+</body>
+</html>

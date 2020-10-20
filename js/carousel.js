@@ -1,4 +1,5 @@
 var section = document.querySelector('.section-carousel');
+var sectionInd = document.querySelector('.section-indicators');
 var carousel = document.querySelector('.carousel');
 var carouselInnerWrap = carousel.querySelector('.carousel-images-wrap');
 var carouselItemWraps = carousel.querySelectorAll('.carousel-item-wrap');
@@ -48,6 +49,7 @@ function calcMargins() {
     itemWrapWidth = isNaN(itemWrapWidth) ? 0 : itemWrapWidth;
 
     carouselInnerWrap.style.setProperty('margin-left', (itemWrapWidth * counterMargin) + 'px');
+    carouselInnerWrap.style.setProperty('width', ((itemWrapWidth * carouselItemWraps.length) + 500) + 'px');
 }
 
 // calculate heights
@@ -79,6 +81,11 @@ function calcHeights() {
         img.style.transition = 'all ease-in-out 1s';
         wrap.style.transition = 'all ease-in-out 1s';
         carouselInnerWrap.style.transition = 'all ease-in-out 1s';
+    });
+
+    sectionInd.style.setProperty('padding-top', carousel.offsetHeight + 'px');
+    arrows.forEach(arrow => {
+        arrow.style.setProperty('top', (carousel.offsetHeight - arrow.offsetHeight) / 2 + 'px');
     });
 }
 
@@ -131,11 +138,6 @@ function carouselCalc() {
 carouselCalc();
 calcSizes();
 calcHeights();
-
-// var d = div.firstChild;
-// var clone=d.cloneNode(true);
-// div.removeChild(d);
-// div.appendChild(clone);
 
 window.onresize = carouselCalc;
 
